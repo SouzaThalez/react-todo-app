@@ -1,12 +1,15 @@
+import Body from './components/body';
 import BottomFooter from './components/footer'
-import NavHeader from "./components/header";
+import PageMenu from "./components/PageMenu";
+import './App.css';
 
 function App(){
-const appTittle =  <h1>A simple todo List</h1>
+const appTittle =  <span>A simple todo List</span>
   return (
         <>
-          <p>{appTittle}</p>
-          <NavHeader></NavHeader>
+          <div className='page-title'>{appTittle}</div>
+          <PageMenu></PageMenu>
+          <Body></Body>
           <BottomFooter></BottomFooter>
         </>
 
