@@ -1,3 +1,22 @@
 .page-title{
-    color: red;
+    color: purple;
+    font-weight: bold;
+}
+.card{
+    width: 250px;
+
+    .card-title{
+        text-align: center;
+    }
+    margin-bottom: 10px;
+}
+
+.body-content{
+    height: 580px;
+    background-color: #8888e7;
+}
+.list-group{
+    li:hover{
+        cursor: pointer;
+    }
 }
