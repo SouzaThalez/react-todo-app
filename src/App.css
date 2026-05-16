@@ -1,22 +1,17 @@
-.page-title{
-    color: purple;
-    font-weight: bold;
-}
-.card{
-    width: 250px;
-
-    .card-title{
-        text-align: center;
-    }
-    margin-bottom: 10px;
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ededed;
 }
 
-.body-content{
-    height: 580px;
-    background-color: #8888e7;
-}
-.list-group{
-    li:hover{
-        cursor: pointer;
-    }
+.app-container{
+    margin-top: 52px;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #efefef;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
