@@ -45,6 +45,11 @@ body{
     box-shadow: 0 6px 14px rgba(0,0,0,0.12);
 }
 
+.selection-container.selected{
+    background-color: #9bcda9;
+}
+
+
 .nav-buttons{
     display: flex;
     justify-content: space-between;
@@ -71,4 +76,10 @@ body{
     color: inherit;
 
     cursor: pointer;
+}
+
+.results-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
